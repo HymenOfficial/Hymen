@@ -1,0 +1,14 @@
+{
+  "name": "hymen",
+  "version": "1.0.0",
+  "description": "A bot that responds to all your needs, even plays music!!!",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Livionthefuture",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  }
+}
