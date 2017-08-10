@@ -1,14 +1,25 @@
 {
-  "name": "hymen",
-  "version": "1.0.0",
-  "description": "A bot that responds to all your needs, even plays music!!!",
-  "main": "start.js",
+  "name": "discordjs-command-handler",
+  "version": "1.5.1",
+  "description": "An example of a Discord.js Bot Handler. Updated and Maintained by the Idiot's Guide Community",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Livionthefuture",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eslachance/discordjs-command-handler.git"
+  },
+  "author": "The Idiot's Guide Community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eslachance/discordjs-command-handler/issues"
+  },
+  "homepage": "https://github.com/eslachance/discordjs-command-handler#readme",
   "dependencies": {
-    "discord.js": "^11.1.0"
+    "discord.js": "^11.1.0",
+    "djs-collection-persistent": "^0.1.3",
+    "moment": "^2.18.1",
+    "moment-duration-format": "^1.3.0"
   }
 }
